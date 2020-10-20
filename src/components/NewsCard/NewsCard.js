@@ -37,7 +37,7 @@ const NewsCard = ({
         </CardContent>
       </CardActionArea>
       <CardActions className={classes.cardActions}>
-        <Button size="small" color="primary">
+        <Button size="small" color="primary" href={url}>
           Read More...
         </Button>
         <Typography variant="h5" color="textSecondary">
